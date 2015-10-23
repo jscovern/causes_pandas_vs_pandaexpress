@@ -15,8 +15,8 @@ nav{
 }
 
 a{
-	display: inline-block;
-	float: left;
+	/*display: inline-block;*/
+	/*float: left;*/
 	margin: 0px 50px;
 }
 
@@ -25,17 +25,36 @@ button{
 	background-color: red;
 	color: white;
 	font-weight: bold;
-	margin-right: 50px;
+	/*margin-right: 50px;*/
+	/*text-align: center;*/
+	display: block;
 }
 
 li{
 	list-style: none;
-	display: inline-block;
+	float: left;
 }
 
 ul{
 	border: 2px solid white;
-	text-align: center;
-	clear: left;
+	/*text-align: left;*/
+	/*text-align: center;*/
+	/*clear: left;*/
+	float: left;
 	/*border-bottom: 2px solid white;*/
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.defaultHidden{
+	display: none;
+}
+
+.navMenu{
+	/*overflow: hidden;*/
+	vertical-align: center;
+}
+
+#toggleContentOnClick{
+
 }
