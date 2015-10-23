@@ -25,5 +25,17 @@ button{
 	background-color: red;
 	color: white;
 	font-weight: bold;
+	margin-right: 50px;
 }
 
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+ul{
+	border: 2px solid white;
+	text-align: center;
+	clear: left;
+	/*border-bottom: 2px solid white;*/
+}
