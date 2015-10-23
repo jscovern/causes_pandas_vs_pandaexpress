@@ -1,0 +1,35 @@
+.panda_header{
+	color: white;
+	text-align: center;
+}
+
+body{
+	background-color: black;
+}
+
+nav{
+	color: red;
+	/*display: inline-block;*/
+	/*float: left;*/
+	/*margin: 0px 500px;*/
+}
+
+a{
+	display: inline-block;
+	float: left;
+	margin: 0px 50px;
+}
+
+button{
+	float: left;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+}
+
+.navMenu{
+	/*border: 2px solid white;*/
+	display: block;
+	border-top: 2px solid white;
+	border-botom: 2px solid white;
+}
