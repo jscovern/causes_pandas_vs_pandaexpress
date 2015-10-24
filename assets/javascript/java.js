@@ -1,6 +1,6 @@
 $("#toggleContentOnClick").click(function() {
 	$("ul").slideToggle();
-	console.log("made it into the div");
+	// console.log("made it into the div");
 });
 
 
